@@ -703,6 +703,10 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+.icon-md {
+    width: 48px;
+    height: 48px;
+}
 
 h2 {
     font-size: 22px;
