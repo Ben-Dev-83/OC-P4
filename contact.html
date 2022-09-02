@@ -18,15 +18,18 @@
 <header class="container bloc-sm">
 <nav class="navbar row">
 <div class=navbar-header>
-<a class=navbar-brand href=index.html><img src=img/agence-la-panthere-monochrome.svg alt="paris web design logo agence web meilleure agence" height=40 /></a>
+<a aria-label="Accueil" class=navbar-brand href=index.html><img src=img/agence-la-panthere-monochrome.svg alt="web design logo agence web" height=40 /></a>
+<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+	<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+</button>
 </div>
 <div class="navbar-collapse navbar-1 special-dropdown-nav">
 <ul class="site-navigation nav navbar-nav">
-<li>
-<a href=index.html>Accueil</a>
+<li aria-labelledby="contact">
+<a href=index.html id="contact">Accueil</a>
 </li>
-<li>
-<a href=contact.html>Contact</a>
+<li aria-labelledby="contact">
+<a href=contact.html id="contact" >Contact</a>
 </li>
 </ul>
 </div>
@@ -57,27 +60,27 @@ Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 <label for=name>
 Nom
 </label>
-<input type=text id=name class=form-control required />
+<input type=text id=name aria-labelledby="name" class=form-control required />
 </div>
 <div class=form-group>
 <label for=email>
 Adresse email
 </label>
-<input id=email class=form-control type=email required />
+<input id=email aria-labelledby="email" class=form-control type=email required />
 </div>
 <div class=form-group>
 <label for=input_504>
 Comment nous avez-vous connu ?
 </label>
-<input class=form-control type=text required id=input_504 />
+<input class=form-control aria-labelledby="input_504" type=text required id=input_504 />
 </div>
 <div class=form-group>
 <label for=message>
 Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 </label>
-<textarea id=message class=form-control rows=4 cols=50 required></textarea>
+<textarea id=message aria-labelledby="message" class=form-control rows=4 cols=50 required></textarea>
 </div>
-<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type=submit>
+<button arial-role="bouton" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type=submit>
 Envoyer
 </button>
 </form>
@@ -90,7 +93,7 @@ contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 1
 </div>
 </div>
 </div>
-<a href="#" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<a href="#" aria-label="scroll" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <div class="bloc bgc-atomic-tangerine d-bloc" id=bloc-8>
 <div class="container bloc-sm">
 <div class=row>
@@ -101,22 +104,22 @@ Agence La Panthère - Agence web basée à Lyon.<br>
 <div class="row row-no-gutters social">
 <div class=col-sm-3>
 <div class=text-center>
-<a class=social href=https://twitter.com title=Twitter><span class="fa fa-twitter icon-md"></span></a>
+<a class=social aria-label="Twitter" href=https://twitter.com title=Twitter><span class="fa fa-twitter icon-md"></span></a>
 </div>
 </div>
 <div class=col-sm-3>
 <div class=text-center>
-<a class=social href=https://fr-fr.facebook.com/ title=Facebook><span class="fa fa-facebook icon-md"></span></a>
+<a class=social aria-label="Facebook" href=https://fr-fr.facebook.com/ title=Facebook><span class="fa fa-facebook icon-md"></span></a>
 </div>
 </div>
 <div class=col-sm-3>
 <div class=text-center>
-<a class=social href=https://dribbble.com/ title=Dribbble><span class="fa fa-dribbble icon-md"></span></a>
+<a class=social aria-label="Dribbble" href=https://dribbble.com/ title=Dribbble><span class="fa fa-dribbble icon-md"></span></a>
 </div>
 </div>
 <div class=col-sm-3>
 <div class=text-center>
-<a class=social href="https://www.instagram.com/?hl=fr" title=Instagram><span class="fa fa-instagram icon-md"></span></a>
+<a class=social aria-label="Instagram" href="https://www.instagram.com/?hl=fr" title=Instagram><span class="fa fa-instagram icon-md"></span></a>
 </div>
 </div>
 </div>
