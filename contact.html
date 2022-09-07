@@ -3,13 +3,13 @@
 <head>
 <meta charset=utf-8>
 <meta name=robots content="contact, follow">
-<meta name=description content="L'agence La Panthère est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.">
+<meta name=description content="Vous avez la possibilité de nous parler de votre projet via le formulaire. Notre équipe prendra contact avec vous dans les meilleurs délais.">
 <meta name=viewport content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <link rel="shortcut icon" type=image/png href=favicon.jpg>
-<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin=anonymous referrerpolicy=no-referrer />
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css>
 <link rel=stylesheet href=css/et-line.css>
 <link rel=stylesheet type=text/css href=style.css>
-<script src=https://use.fontawesome.com/f51103c7de.js></script>
 <title>Contact</title>
 </head>
 <body>
@@ -25,8 +25,8 @@
 </div>
 <div class="navbar-collapse navbar-1 special-dropdown-nav">
 <ul class="site-navigation nav navbar-nav">
-<li aria-labelledby="contact">
-<a href=index.html id="contact">Accueil</a>
+<li aria-labelledby="accueil">
+<a href=index.html id="accueil">Accueil</a>
 </li>
 <li aria-labelledby="contact">
 <a href=contact.html id="contact" >Contact</a>
@@ -55,7 +55,7 @@ Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 <div class="container bloc-lg">
 <div class=row>
 <div class=col-sm-6>
-<form id=form_1 novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+<form id=form_1 novalidate>
 <div class=form-group>
 <label for=name>
 Nom
@@ -80,7 +80,8 @@ Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 </label>
 <textarea id=message aria-labelledby="message" class=form-control rows=4 cols=50 required></textarea>
 </div>
-<button arial-role="bouton" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type=submit>
+<div></div>
+<button id="bouton" aria-labelledby="bouton" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type=submit>
 Envoyer
 </button>
 </form>
